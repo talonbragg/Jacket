@@ -20,7 +20,7 @@ gzip(file, file destination, newfilname);
 ```
 Then go into your terminal again and type: 
 
-````
+```
 $ node jacketfile.js
 ```
 
