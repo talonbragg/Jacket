@@ -16,7 +16,7 @@ This will create a file called `jacketfile.js`. In your `jacket.js` file, type t
 ```javascript
 #!/jacketfile.js
 
-gzip(file, file destination, new file name);
+gzip(file, file destination, newfilname);
 ```
 Then go into your terminal again and type: `jacket zip`.
 
