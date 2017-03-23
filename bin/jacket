@@ -6,14 +6,14 @@ var exec = require('child_process').exec
 var args = process.argv.slice(1);
 
 var error = function(msg) {
-    console.log(hexu);
+    console.log(msg, 'color: #e2241d');
 };
 
 var init = function(dir) {
   var configFilePath = path.join(dir, "jacketfile.js")
   fs.readFile(configFilePath, (err, content) => {
     if(err) {
-      error("Could not find/read a `jacketconfig.js`");
+      error("There was an error");
       return;
     }
 
@@ -21,4 +21,8 @@ var init = function(dir) {
       console.log(stdout);
     });
   });
+}
+
+if(args.length === 1) {
+  init(process.cwd())
 }
