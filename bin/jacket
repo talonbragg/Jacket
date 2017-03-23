@@ -1,0 +1,13 @@
+var init = function(dir) {
+  var configFilePath = path.join(dir, "jacketfile.js")
+  fs.readFile(configFilePath, (err, content) => {
+    if(err) {
+      error("Could not find/read a `jacketconfig.js`");
+      return;
+    }
+
+    exec("node " + configFilePath, function(err, stdout) {
+      console.log(stdout);
+    });
+  });
+}
