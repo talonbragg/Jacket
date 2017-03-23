@@ -1,3 +1,5 @@
+#!/usr/bin/env/node
+
 var init = function(dir) {
   var configFilePath = path.join(dir, "jacketfile.js")
   fs.readFile(configFilePath, (err, content) => {
