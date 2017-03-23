@@ -24,7 +24,7 @@ Then go into your terminal again and type:
 $ node jacketfile.js
 ```
 
-It would also be easier if you add a script to your `packege.json`:
+It would also be easier if you add a script to your `package.json`:
 
 ```json
   "scripts" : {
