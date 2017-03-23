@@ -1,0 +1,28 @@
+{
+  "name": "jacketjs",
+  "version": "0.0.0",
+  "description": "A simple tool to gzip files",
+  "main": "config.js",
+  "bin": {
+    "jacket": "bin/jacket"
+  },
+  "scripts": {
+    "test": "echo No Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talonbragg/Jacket.git"
+  },
+  "keywords": [
+    "jacket",
+    "jacketjs",
+    "zip",
+    "gzip"
+  ],
+  "author": "Talon Bragg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talonbragg/Jacket/issues"
+  },
+  "homepage": "https://github.com/talonbragg/Jacket#readme"
+}
